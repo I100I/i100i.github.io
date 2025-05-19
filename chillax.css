@@ -2980,3 +2980,77 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .buttonSection__1405b {
     background: none !important;
 }
+
+		/*--- 4 Fonts ---*/
+
+		/*-- 4.1 Display Font --*/
+:root {
+	--dplus-font-ui: 'Poppins';
+	--dplus-font-ui-ja: 'Kosugi';
+	--dplus-font-ui-ko: 'Gothic A1';
+	--dplus-font-ui-ru: 'PT Sans Caption';
+	--dplus-font-ui-vi: 'Raleway';
+	--dplus-font-ui-el: 'Commissioner';
+	--dplus-font-body: 'Roboto';
+	--dplus-font-header: 'Righteous';
+	--dplus-font-header-ja: 'RocknRoll One';
+	--dplus-font-header-ko: 'Black Han Sans';
+	--dplus-font-header-ru: 'Russo One';
+	--dplus-font-header-hi: 'Palanquin Dark';
+	--dplus-font-header-th: 'Mitr';
+	--dplus-font-header-el: 'Alegreya Sans';
+
+	--font-display: var(--dplus-font-ui), 'Poppins', var(--dplus-font-ui-ru), 'Comfortaa', var(--dplus-font-ui-vi), 'Raleway', var(--dplus-font-ui-ja), 'Kosugi',  var(--dplus-font-ui-ko), 'Gothic A1', var(--dplus-font-ui-el), 'Commissioner', '-apple-system', 'Helvetica Neue', 'system-ui', 'Tahoma', 'Segoe UI', 'Helvetica', 'Whitney', sans-serif !important;
+	--font-primary: var(--font-display);
+	--font-japanese: var(--font-display);
+	--font-korean: var(--font-display);
+	--font-chinese-simplified: var(--font-display);
+	--font-chinese-traditional: var(--font-display);
+}
+body, button {
+	font-family: var(--font-display);
+}
+		
+		/*-- 4.2 Text Font --*/
+::placeholder, ::-webkit-input-placeholder, p, bodyarea, input, select, textarea,
+.message__5126c, .markup__75297, /*chat messages*/
+.form_f75fb0, /* message bar */
+.search__97492, /* search */
+.subText__91a9d, /*member list body*/
+.customStatusText-_4TbWr, /*user's custom status*/
+.modeDefault-2fEh7a, /*settings small body*/
+.emojiAliasPlaceholder_e7d73e, /*emoji name placeholder*/
+.topic__6ec1a, /*channel topic in chat header*/
+.content_bf3bbb, /*channel topic popup body*/
+.bd-description /*BD: plugin/theme desc*/ {
+	font-family: var(--dplus-font-body), 'Roboto', '-apple-system', 'Helvetica Neue', 'system-ui', 'Arial', 'Helvetica', 'Whitney', sans-serif !important;
+}
+		/*-- 4.3 Names, Titles, and Headers Font --*/
+header, h1,
+.nameAndDecorators__91a9d, /*name in member list*/
+.headerNameWrapper-3res2c, /*nickname in profile popup*/
+.username_c19a55, /*username in chat*/
+.headerText-15Q25Z, /*username#tag in profile popup*/
+.nickname-2gQ76l, /*nickname in profile popup*/
+.nameTag__37e49, /*your username in the bottom-left*/
+.detailsInner_de8f28, /*settings: your username in My Account*/
+.activityName__2ef49, /*user's activity name, includes song and author titles*/
+.emojiUploader-1f0pVx, /*server settings: emoji's uploader*/
+.userHook-3AdCBF, /*server settings: username in audit log*/
+.secondaryHeader-2oeRPO, /*server settings: integrations row headers such as bot names*/
+.roleName__48c1c, /*role name in profile*/
+.roleName-35qCvR, .roleName-3910zV, /*role name in server settings*/
+.membersGroup_c8ffbb, /*role name in member list*/
+.roleRow-3HnunM, /*role name in context menu*/
+.roleMention__75297, /*role name mention in chat*/
+.wrapper_d4fa29, /*username or channel name mention in chat*/
+[data-slate-object="inline"] .mention, /*mention in message box*/
+.systemMessage__5126c .anchorUnderlineOnHover-2qPutX, /* links / usernames in system messages */
+.name__29444, /*category name in sidebar*/
+.name__2ea32, /*channel name in sidebar*/
+.title__9293f, /*channel name in chat header*/
+.title-3hptVQ, /*channel name in channel topic popup*/
+.bd-author, .bd-meta .bd-link, /*BD: plugin/theme author*/
+.timestamp_c19a55 /*chat message hover timestamp (counts as a header)*/ {
+	font-family: var(--dplus-font-header), 'Righteous', var(--dplus-font-header-ja), 'RocknRoll One', var(--dplus-font-header-ko), 'Black Han Sans', var(--dplus-font-header-ru), 'Russo One', var(--dplus-font-header-hi), 'Palanquin Dark', var(--dplus-font-header-th), 'Mitr', var(--dplus-font-header-el), 'Alegreya Sans', 'Lalezar', 'Century Gothic', 'Franklin Gothic Medium', 'Britannic', 'Helvetica Neue', 'Helvetica', 'Whitney', sans-serif !important;
+}
