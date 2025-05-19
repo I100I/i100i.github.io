@@ -36,7 +36,7 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .theme-dark .members_c8ffbb:hover {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 80%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 80%);
 }
 
 /* Make the list fill the window height */
