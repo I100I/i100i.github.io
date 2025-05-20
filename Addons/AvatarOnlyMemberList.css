@@ -32,11 +32,13 @@ div:not(:hover) > .members_c8ffbb > div {
 
 /*We could for instance let user control the color via a css var*/
 .theme-light .members_c8ffbb:hover {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+
+/* Removed due to me not liking it check the backup for original */
+
 }
 
-.theme-dark .members_c8ffbb:hover {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
+/* Removed due to me not liking it check the backup for original */
+
 }
 
 /* Make the list fill the window height */
