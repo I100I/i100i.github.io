@@ -20,7 +20,7 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .members_c8ffbb {
-    background-color: #0000;
+    background-color: transparent;
     transition: 0.5s ease;
 }
 
@@ -30,8 +30,7 @@ div:not(:hover) > .members_c8ffbb > div {
     margin-bottom: 15px;
 }
 
-/*We could for instance let user control the color via a css var*/
-.theme-light .members_c8ffbb:hover {
+/*We could for instance let user control the color via a css var*/ {
 
 /* Removed due to me not liking it check the backup for original */
 
