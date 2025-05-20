@@ -30,16 +30,6 @@ div:not(:hover) > .members_c8ffbb > div {
     margin-bottom: 15px;
 }
 
-/*We could for instance let user control the color via a css var*/ {
-
-/* Removed due to me not liking it check the backup for original */
-
-}
-
-/* Removed due to me not liking it check the backup for original */
-
-}
-
 /* Make the list fill the window height */
 .membersWrap_c8ffbb {
     height: 100%;
